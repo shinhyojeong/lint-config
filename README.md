@@ -1,1 +1,1 @@
-# eslint-config-hyo
+# lint-config
