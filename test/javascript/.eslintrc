@@ -1,7 +1,10 @@
 {
   "root": true,
-  "extends": "../../rules/base.js",
-  "parserOptions": {
-    "requireConfigFile": false
-  }
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "../../common",
+    "../../rules/base",
+    "../../rules/import"
+  ]
 }
