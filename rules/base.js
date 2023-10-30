@@ -7,12 +7,6 @@ module.exports = {
     "no-constant-binary-expression": "error",
 
     /**
-     * @description 중복 module import
-     * @link https://eslint.org/docs/latest/rules/no-duplicate-imports
-     */
-    "no-duplicate-imports": "error",
-
-    /**
      * @description 배열 매서드의 return
      * @link https://eslint.org/docs/latest/rules/array-callback-return
      */
