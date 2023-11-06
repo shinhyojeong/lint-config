@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ["eslint:recommended"],
   rules: {
     /**
      * @description 값에 영향을 주는 표현식

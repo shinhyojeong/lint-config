@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   parserOptions: {
     sourceType: "module",
     ecmaVersion: 2018,
@@ -8,19 +9,12 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: [
-    "eslint:recommended",
-    "plugin:import/recommended",
-    "./rules/import",
-    "./rules/base",
-  ],
-  root: true,
-  plugins: ["import"],
+  extends: ["plugin:import/recommended", "./src/import", "./src/base"],
   overrides: [
     {
       files: ["**/*.ts", "**/*.tsx"],
       parser: "@typescript-eslint/parser",
-      extends: ["plugin:@typescript-eslint/recommended", "./rules/typescript"],
+      extends: ["plugin:@typescript-eslint/recommended", "./src/typescript"],
       plugins: ["@typescript-eslint"],
       settings: {
         "import/resolver": {

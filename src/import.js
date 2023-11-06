@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ["plugin:import/recommended"],
   rules: {
     /**
      * @description 빈 import block
