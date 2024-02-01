@@ -9,7 +9,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ["plugin:import/recommended", "./src/import", "./src/base"],
+  extends: ["./src/import", "./src/base"],
   overrides: [
     {
       files: ["**/*.ts", "**/*.tsx"],
