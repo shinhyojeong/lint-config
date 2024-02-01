@@ -9,7 +9,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ["./src/import", "./src/base"],
+  extends: ["./src/import", "./src/base", './src/prettier'],
   overrides: [
     {
       files: ["**/*.ts", "**/*.tsx"],
