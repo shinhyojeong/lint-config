@@ -18,8 +18,8 @@
   "scripts": {
     "build": "vite build",
     "changeset": "changeset",
-    "changeset:version": "changeset version && changeset tag",
-    "changeset:publish": "yarn build && changeset publish"
+    "version": "changeset version && changeset tag",
+    "publish": "yarn build && changeset publish"
   },
   "peerDependencies": {
     "eslint": "^8.52.0",
