@@ -1,15 +1,25 @@
 {
   "name": "@shinhyojeong/lint-config",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Lint shareable config",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
   "license": "MIT",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "exports": {
+    ".": {
+      "require": "./lib/index.js",
+      "import": "./lib/index.mjs"
+    }
+  },
   "scripts": {
+    "build": "vite build",
     "changeset": "changeset",
     "version": "changeset version && changeset tag",
-    "publish": "changeset publish"
+    "publish": "yarn build && changeset publish"
   },
   "peerDependencies": {
     "eslint": "^8.52.0",
@@ -28,7 +38,8 @@
     "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.2.4",
     "react": "^18.2.0",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4"
   },
   "dependencies": {
     "@changesets/cli": "^2.27.1"
