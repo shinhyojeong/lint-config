@@ -10,6 +10,25 @@
     "react": "^18.2.0",
     "typescript": "^5.2.2"
   },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "source": "./lib/index.js",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "files": [
+    "index.js",
+    "src",
+    "lib"
+  ],
+  "scripts": {
+    "build": "nanobundle build --root-dir=./",
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/react": "^18.2.35",
@@ -21,6 +40,7 @@
     "eslint-plugin-import": "^2.29.0",
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-react": "^7.33.2",
+    "nanobundle": "^2.0.0",
     "prettier": "^3.2.4",
     "react": "^18.2.0",
     "typescript": "^5.2.2"
