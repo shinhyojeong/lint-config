@@ -38,8 +38,9 @@ jobs:
         id: changesets
         uses: changesets/action@v1
         with:
-          version: yarn version
-          publish: yarn publish
+          version: yarn changeset version
+          tag: yarn changeset tag
+          publish: yarn changeset publish
           title: "release: version packages"
           commit: |
             release: version packages
