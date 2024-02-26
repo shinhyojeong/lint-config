@@ -1,6 +1,6 @@
 {
   "name": "@shinhyojeong/lint-config",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Lint shareable config",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
@@ -18,8 +18,8 @@
   "scripts": {
     "build": "vite build",
     "changeset": "changeset",
-    "version": "changeset version && changeset tag",
-    "publish": "yarn build && changeset publish"
+    "version": "changeset version",
+    "publish": "yarn build && yarn changeset publish"
   },
   "peerDependencies": {
     "eslint": "^8.52.0",
