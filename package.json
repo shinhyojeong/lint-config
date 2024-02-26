@@ -27,6 +27,8 @@
   ],
   "scripts": {
     "build": "nanobundle build --root-dir=./",
+    "release": "yarn changeset publish",
+    "version": "changeset version && yarn install --no-immutable",
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
