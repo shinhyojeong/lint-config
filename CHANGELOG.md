@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- c576794: release: version up
+
 ## 0.0.4
 
 ### Patch Changes
