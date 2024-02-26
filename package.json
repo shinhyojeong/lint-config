@@ -19,7 +19,7 @@
     "build": "vite build",
     "changeset": "changeset",
     "version": "changeset version && changeset tag",
-    "publish": "yarn build && changeset publish"
+    "publish": "changeset publish"
   },
   "peerDependencies": {
     "eslint": "^8.52.0",

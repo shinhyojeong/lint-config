@@ -34,14 +34,16 @@ jobs:
           git config --global user.email "shinhyojeong.w@gmail.com"
           git config --global user.name "shinhyojeong"
 
+      - name: Build
+        run: yarn build
+
       - name: Create Changesets Pull Request or Publish to NPM
         id: changesets
         uses: changesets/action@v1
         with:
-          setupGitUser: false
-          title: "chore: version packages"
+          title: "release: version packages"
           commit: |
-            chore: version packages
+            release: version packages
 
             Co-authored-by: Hyojeong Shin <shinhyojeong.w@gmail.com>
           version: yarn version
