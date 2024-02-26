@@ -16,10 +16,7 @@
     }
   },
   "scripts": {
-    "build": "vite build",
-    "changeset": "changeset",
-    "version": "changeset version && changeset tag",
-    "publish": "yarn build && changeset publish"
+    "build": "vite build"
   },
   "peerDependencies": {
     "eslint": "^8.52.0",
@@ -40,8 +37,5 @@
     "react": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.1.4"
-  },
-  "dependencies": {
-    "@changesets/cli": "^2.27.1"
   }
 }
