@@ -68,6 +68,12 @@ module.exports = {
     "no-else-return": "error",
 
     /**
+     * @description 빈 block문
+     * @link https://eslint.org/docs/latest/rules/no-else-return
+     */
+    "no-empty": "error",
+
+    /**
      * @description 빈 함수
      * @link https://eslint.org/docs/latest/rules/no-empty-function
      */
