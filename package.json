@@ -1,10 +1,16 @@
 {
   "name": "@shinhyojeong/lint-config",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Lint shareable config",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
   "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "changeset": "changeset",
+    "version": "changeset version && changeset tag",
+    "publish": "changeset publish"
+  },
   "peerDependencies": {
     "eslint": "^8.52.0",
     "react": "^18.2.0",
@@ -23,5 +29,8 @@
     "prettier": "^3.2.4",
     "react": "^18.2.0",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@changesets/cli": "^2.27.1"
   }
 }
