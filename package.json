@@ -9,6 +9,7 @@
   "files": [
     "lib",
     "src",
+    "index.js",
     "prettier.js"
   ],
   "exports": {
