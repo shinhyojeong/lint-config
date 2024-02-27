@@ -1,7 +1,12 @@
 module.exports = {
   rules: {
     /**
-     * @description 일관된 type 표명
+     * @description 일관된 type선언
+     */
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
+
+    /**
+     * @description 일관된 type표명
      * @link https://typescript-eslint.io/rules/consistent-type-assertions
      */
     '@typescript-eslint/consistent-type-assertions': [
