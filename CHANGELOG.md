@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.11
+
+### Patch Changes
+
+- d8af993: - config: prettier export 하도록
+
 ## 0.0.10
 
 ### Patch Changes
