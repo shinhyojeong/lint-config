@@ -8,6 +8,7 @@
   "main": "./lib/index.js",
   "files": [
     "lib",
+    "src",
     "prettier.js"
   ],
   "exports": {
