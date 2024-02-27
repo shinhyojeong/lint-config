@@ -34,6 +34,9 @@ jobs:
           git config --global user.email "shinhyojeong.w@gmail.com"
           git config --global user.name "shinhyojeong"
 
+      - name: Build
+        run: yarn build
+
       - name: Create Changesets Pull Request or Publish to NPM
         id: changesets
         uses: changesets/action@v1
@@ -41,7 +44,7 @@ jobs:
           version: yarn changeset version
           tag: yarn changeset tag
           publish: yarn changeset publish
-          title: "release: version packages"
+          title: 'release: version packages'
           commit: |
             release: version packages
 
