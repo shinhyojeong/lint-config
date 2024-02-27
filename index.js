@@ -9,7 +9,7 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ["./src/import", "./src/base", './src/prettier'],
+  extends: ["./src/import", "./src/base", "plugin:prettier/recommended"],
   overrides: [
     {
       files: ["**/*.ts", "**/*.tsx"],
