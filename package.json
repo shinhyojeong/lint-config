@@ -14,9 +14,11 @@
   ],
   "exports": {
     ".": {
-      "require": "./lib/index.js",
+      "source": "./lib/index.js",
+      "require": "./lib/index.cjs",
       "import": "./lib/index.mjs"
-    }
+    },
+    "./prettier.js": "./prettier.js"
   },
   "scripts": {
     "lint": "eslint --fix",
