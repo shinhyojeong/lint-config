@@ -1,5 +1,13 @@
 # @shinhyojeong/lint-config
 
+## 0.0.7
+
+### Patch Changes
+
+- 696ea7a: - 내보내는 파일에 src 추가
+  - test 환경 적용 안되는 이슈 수정
+  - workflow에 build 추가
+
 ## 0.0.6
 
 ### Patch Changes
