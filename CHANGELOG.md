@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- a13d2d3: - fix: prettier 이슈 수정
+
 ## 0.0.5
 
 ### Patch Changes
