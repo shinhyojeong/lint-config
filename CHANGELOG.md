@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.10
+
+### Patch Changes
+
+- 2ad8f7f: - feat: typescript rule 추가
+
 ## 0.0.9
 
 ### Patch Changes
