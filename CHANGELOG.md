@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.17
+
+### Patch Changes
+
+- d19d6df: - config: package public으로 수정
+
 ## 0.0.16
 
 ### Patch Changes
