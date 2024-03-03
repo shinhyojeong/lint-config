@@ -18,7 +18,7 @@
       "require": "./lib/index.cjs",
       "import": "./lib/index.mjs"
     },
-    "./prettier.js": "./prettier.js"
+    "./prettier": "./lib/prettier.js"
   },
   "scripts": {
     "lint": "eslint --fix",
