@@ -15,10 +15,10 @@
       "require": "./lib/index.js",
       "import": "./lib/index.mjs"
     },
-    "./prettier": {
-      "source": "./lib/prettier.js",
-      "require": "./lib/prettier.js",
-      "import": "./lib/prettier.mjs"
+    "./prettierrc": {
+      "source": "./lib/prettierrc.js",
+      "require": "./lib/prettierrc.js",
+      "import": "./lib/prettierrc.mjs"
     }
   },
   "scripts": {
