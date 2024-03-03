@@ -8,7 +8,7 @@ export default defineConfig({
         resolve(__dirname, 'index.js'),
         resolve(__dirname, 'prettierrc.js')
       ],
-      name: '@shinhyojeong/lint-config',
+      name: '@shinhyojeong/eslint-config',
       formats: ['es', 'cjs']
     },
     outDir: 'lib'
