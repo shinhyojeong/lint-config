@@ -6,6 +6,9 @@
   "author": "shinyojeong@naver.com",
   "license": "MIT",
   "main": "./lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
