@@ -1,5 +1,11 @@
 # @shinhyojeong/lint-config
 
+## 0.0.16
+
+### Patch Changes
+
+- 1c2eae6: - vite 빌드 설정 수정
+
 ## 0.0.15
 
 ### Patch Changes
