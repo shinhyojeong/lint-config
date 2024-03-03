@@ -1,5 +1,13 @@
 # @shinhyojeong/lint-config
 
+## 0.0.15
+
+### Patch Changes
+
+- 9ac4878: - chore: prettier -> prettierrc로 파일명 변경
+  - package: eslint-plugin-prettier 설치
+- 9ac4878: - feat: typescript rule 추가
+
 ## 0.0.14
 
 ### Patch Changes
