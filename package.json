@@ -1,6 +1,6 @@
 {
   "name": "@shinhyojeong/lint-config",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "Lint shareable config",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
@@ -14,9 +14,11 @@
   ],
   "exports": {
     ".": {
-      "require": "./lib/index.js",
+      "source": "./lib/index.js",
+      "require": "./lib/index.cjs",
       "import": "./lib/index.mjs"
-    }
+    },
+    "./prettier.js": "./prettier.js"
   },
   "scripts": {
     "lint": "eslint --fix",
