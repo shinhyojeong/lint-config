@@ -1,5 +1,16 @@
 # @shinhyojeong/lint-config
 
+## 0.0.13
+
+### Patch Changes
+
+- 0cb7530: - prettier export directory 수정
+- 0cb7530: - 내보내는 파일에 src 추가
+  - test 환경 적용 안되는 이슈 수정
+  - workflow에 build 추가
+- 0cb7530: config: prettier export 수정
+- 0cb7530: - export 파일 추가
+
 ## 0.0.12
 
 ### Patch Changes
