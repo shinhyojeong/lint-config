@@ -6,9 +6,9 @@ export default defineConfig({
     lib: {
       entry: [
         resolve(__dirname, 'index.js'),
-        resolve(__dirname, 'prettier.js')
+        resolve(__dirname, 'prettierrc.js')
       ],
-      name: '@shinhyojeong/lint-config',
+      name: '@shinhyojeong/eslint-config',
       formats: ['es', 'cjs']
     },
     outDir: 'lib'

@@ -1,11 +1,14 @@
 {
-  "name": "@shinhyojeong/lint-config",
-  "version": "0.0.13",
+  "name": "@shinhyojeong/eslint-config",
+  "version": "0.0.1",
   "description": "Lint shareable config",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
   "license": "MIT",
   "main": "./lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "lib"
   ],
@@ -15,10 +18,10 @@
       "require": "./lib/index.js",
       "import": "./lib/index.mjs"
     },
-    "./prettier": {
-      "source": "./lib/prettier.js",
-      "require": "./lib/prettier.js",
-      "import": "./lib/prettier.mjs"
+    "./prettierrc": {
+      "source": "./lib/prettierrc.js",
+      "require": "./lib/prettierrc.js",
+      "import": "./lib/prettierrc.mjs"
     }
   },
   "scripts": {
