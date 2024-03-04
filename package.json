@@ -10,7 +10,9 @@
     "access": "public"
   },
   "files": [
-    "lib"
+    "lib",
+    "src",
+    "index.js"
   ],
   "exports": {
     ".": {
