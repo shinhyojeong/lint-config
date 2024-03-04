@@ -1,5 +1,13 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.2
+
+### Patch Changes
+
+- ea67c24: chore: lock 파일 업데이트
+- c43a16f: - import 방식 cjs로 변경
+- c43a16f: - eslint 파일 구조 변경
+
 ## 0.0.1
 
 ### Patch Changes
