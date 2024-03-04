@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.3
+
+### Patch Changes
+
+- b438bc2: - feat: 내보내는 파일 추가
+
 ## 0.0.2
 
 ### Patch Changes
