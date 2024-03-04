@@ -1,26 +1,15 @@
+const auto = require('./src/auto')
+const base = require('./src/base')
+const react = require('./src/react')
+const prettier = require('./src/prettier')
+const typescript = require('./src/typescript')
+
 module.exports = {
-  root: true,
-  parserOptions: {
-    sourceType: 'module',
-    ecmaVersion: 2018
-  },
-  env: {
-    es2021: true,
-    browser: true,
-    node: true
-  },
-  extends: ['./src/import', './src/base', 'plugin:prettier/recommended'],
-  overrides: [
-    {
-      files: ['**/*.ts', '**/*.tsx'],
-      parser: '@typescript-eslint/parser',
-      extends: ['plugin:@typescript-eslint/recommended', './src/typescript'],
-      plugins: ['@typescript-eslint'],
-      settings: {
-        'import/resolver': {
-          typescript: {}
-        }
-      }
-    }
-  ]
+  configs: {
+    auto,
+    base,
+    react,
+    prettier,
+    typescript
+  }
 }
