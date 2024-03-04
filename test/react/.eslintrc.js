@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['../../index', '../../src/react']
+  extends: ['../../src/auto', '../../src/react']
 }
