@@ -1,5 +1,12 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.4
+
+### Patch Changes
+
+- bc9b5ba: - config: prettier 관련 패키지 설치 및 export 설정
+  - fix: import 방식 수정
+
 ## 0.0.3
 
 ### Patch Changes
