@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.6
+
+### Patch Changes
+
+- 8a8a8de: - 불필요한 코드 제거
+
 ## 0.0.5
 
 ### Patch Changes
