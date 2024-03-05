@@ -7,7 +7,7 @@ export default {
   settings: {
     react: {
       version: "detect",
-    },x
+    },
   },
   extends: ["plugin:react/recommended"],
   rules: {
