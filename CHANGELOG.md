@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.5
+
+### Patch Changes
+
+- d8370eb: - ES Module 방식으로 수정
+
 ## 0.0.4
 
 ### Patch Changes
