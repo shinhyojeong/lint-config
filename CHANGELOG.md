@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-config
 
+## 0.0.7
+
+### Patch Changes
+
+- d69784a: - config: package export 파일 수정
+
 ## 0.0.6
 
 ### Patch Changes
