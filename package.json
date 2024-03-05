@@ -23,7 +23,7 @@
   },
   "scripts": {
     "lint": "eslint --fix",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "changeset": "changeset",
     "version": "changeset version",
     "publish": "yarn build && yarn changeset publish"

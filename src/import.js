@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   extends: ["plugin:import/recommended"],
   rules: {
     /**

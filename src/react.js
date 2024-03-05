@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   parserOptions: {
     ecmaFeatures: { jsx: true },
     jsx: true,
@@ -7,7 +7,7 @@ module.exports = {
   settings: {
     react: {
       version: "detect",
-    },
+    },x
   },
   extends: ["plugin:react/recommended"],
   rules: {

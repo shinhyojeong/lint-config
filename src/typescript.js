@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   rules: {
     /**
      * @description 일관된 type선언
