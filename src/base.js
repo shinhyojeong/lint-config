@@ -1,6 +1,12 @@
 module.exports = {
+  env: { browser: true, es2021: true, node: true },
+  parserOptions: {
+    "sourceType": "module"
+  },
   extends: ["eslint:recommended"],
   rules: {
+    "no-var": "error",
+
     /**
      * @description 값에 영향을 주는 표현식
      * @link https://eslint.org/docs/latest/rules/no-constant-binary-expression

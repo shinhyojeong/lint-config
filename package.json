@@ -1,7 +1,7 @@
 {
-  "name": "@shinhyojeong/eslint-config",
+  "name": "@shinhyojeong/eslint-plugin",
   "version": "0.0.4",
-  "description": "Lint shareable config",
+  "description": "Lint shareable plugin",
   "repository": "shinhyojeong/lint-config",
   "author": "shinyojeong@naver.com",
   "license": "MIT",
@@ -10,9 +10,7 @@
     "access": "public"
   },
   "files": [
-    "lib",
-    "src",
-    "index.js"
+    "lib"
   ],
   "exports": {
     ".": {
