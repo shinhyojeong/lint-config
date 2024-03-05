@@ -10,16 +10,15 @@
     "access": "public"
   },
   "files": [
-    "lib",
-    "src",
-    "index.js"
+    "lib"
   ],
   "exports": {
     ".": {
-      "source": "./lib/index.js",
-      "require": "./lib/index.js",
-      "import": "./lib/index.mjs"
-    }
+      "source": "./lib/index.cjs",
+      "require": "./lib/index.cjs",
+      "import": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
   },
   "scripts": {
     "lint": "eslint --fix",
