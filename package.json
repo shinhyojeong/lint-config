@@ -2,7 +2,7 @@
   "name": "@shinhyojeong/eslint-plugin",
   "version": "0.0.6",
   "description": "Lint shareable plugin",
-  "repository": "shinhyojeong/lint-config",
+  "repository": "shinhyojeong/lint-plugin",
   "author": "shinyojeong@naver.com",
   "license": "MIT",
   "main": "./lib/index.js",

@@ -1,1 +1,1 @@
-# lint-config
+# lint-plugin
