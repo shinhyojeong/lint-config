@@ -9,15 +9,12 @@ module.exports = {
     browser: true,
     node: true
   },
-  extends: ['plugin:@shinhyojeong/import', 'plugin:@shinhyojeong/base'],
+  extends: ['./import', './base'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
       parser: '@typescript-eslint/parser',
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@shinhyojeong/typescript'
-      ],
+      extends: ['plugin:@typescript-eslint/recommended', './typescript'],
       plugins: ['@typescript-eslint'],
       settings: {
         'import/resolver': {
