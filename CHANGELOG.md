@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-plugin
 
+## 0.0.11
+
+### Patch Changes
+
+- 430a82a: - feat: 경로 resolve
+
 ## 0.0.10
 
 ### Patch Changes
