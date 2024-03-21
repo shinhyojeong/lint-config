@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-plugin
 
+## 0.0.8
+
+### Patch Changes
+
+- 8c495dc: - feat: 디렉토리 접근 방식 수정
+
 ## 0.0.7
 
 ### Patch Changes
