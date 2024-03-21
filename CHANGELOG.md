@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-plugin
 
+## 0.0.9
+
+### Patch Changes
+
+- 6aa6db1: - feat: cjs 문법으로 변경
+
 ## 0.0.8
 
 ### Patch Changes

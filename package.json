@@ -1,6 +1,6 @@
 {
   "name": "@shinhyojeong/eslint-plugin",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Lint shareable plugin",
   "repository": "shinhyojeong/lint-plugin",
   "author": "shinyojeong@naver.com",
