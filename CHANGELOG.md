@@ -1,5 +1,11 @@
 # @shinhyojeong/eslint-plugin
 
+## 0.0.10
+
+### Patch Changes
+
+- 624fdc8: feat: 룰 상대경로로 수정
+
 ## 0.0.9
 
 ### Patch Changes
