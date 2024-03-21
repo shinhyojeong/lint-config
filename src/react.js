@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   parserOptions: {
     ecmaFeatures: { jsx: true },
     jsx: true,
