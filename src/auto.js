@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   root: true,
   parserOptions: {
     sourceType: 'module',
@@ -9,12 +9,15 @@ module.exports = {
     browser: true,
     node: true
   },
-  extends: ['./import', './base'].map((require.resolve)),
+  extends: ['./import', './base'].map(require.resolve),
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
       parser: '@typescript-eslint/parser',
-      extends: ['plugin:@typescript-eslint/recommended', ...['./typescript'].map(require.resolve)],
+      extends: [
+        'plugin:@typescript-eslint/recommended',
+        ...['./typescript'].map(require.resolve)
+      ],
       plugins: ['@typescript-eslint'],
       settings: {
         'import/resolver': {
