@@ -9,14 +9,14 @@ export default {
     browser: true,
     node: true
   },
-  extends: ['./import', './base'].map(require.resolve),
+  extends: ['plugin:@shinhyojeong/import', 'plugin:@shinhyojeong/base'],
   overrides: [
     {
       files: ['**/*.ts', '**/*.tsx'],
       parser: '@typescript-eslint/parser',
       extends: [
         'plugin:@typescript-eslint/recommended',
-        ...['./typescript'].map(require.resolve)
+        'plugin:@shinhyojeong/typescript'
       ],
       plugins: ['@typescript-eslint'],
       settings: {
